@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    /* border: 0.2px dashed blue; */
+    margin: 0px;
+    padding: 0px;
+
+}
+.ticket{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    align-self: center;
+    justify-self: center;
+}
+
+.ticket__info, .ticket__number{
+    font-size: large;
+    padding: 5px;
+}
+
+.ticket__number-info{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+}
+
+.ticket__number-container, .ticket__name-container{
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+
+.ticket__name {
+    font-size: 30px;
+    width: fit-content;
+    background-color: white;
+    color: rgb(85, 38, 129);
+    border: 1px solid rgb(85, 38, 129);
+    text-shadow: none;
+}
+
+.ticket__queue-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.queue-number{
+    color:rgb(85, 38, 129);
+    margin: 0px;
+}
+
+ .ticket__status{
+    margin-top:10px;
+    text-align: center;
+}
+
+.status{
+    margin: 0px;
+    padding: 2px;
+}
+
+.button--cancel{
+    align-self:center;
+}
+
+.info-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.business-name{
+    background-color: white;
+}
+.finish-msg{
+font-size: 15px;
+padding: 15px;
+}
+
+.colored-text-box--queue{
+    width: 90%;
+    background-color: rgb(217, 217, 217);
+    align-self: center;
+    justify-self: center;
+}
+
+.green{
+    background-color: rgb(55, 134, 55);
+}
+
+.ap {
+    cursor: auto;
+}

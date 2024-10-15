@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+    /* border: 0.5px dashed blue; */
+    margin: 0px;
+    padding: 0px;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
